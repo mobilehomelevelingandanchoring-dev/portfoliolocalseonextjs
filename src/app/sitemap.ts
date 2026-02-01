@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/contact',
         '/blog',
         '/locations',
+        '/locations/slovenia',
         '/services',
         '/pricing',
         '/audit',

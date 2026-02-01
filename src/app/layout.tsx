@@ -56,6 +56,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body className={`${inter.variable} ${outfit.variable} font-sans antialiased bg-white text-slate-900 selection:bg-primary/20 selection:text-primary`}>
         <Navbar />
         <main className="pt-20 lg:pt-24 min-h-[calc(100vh-80px)]">
